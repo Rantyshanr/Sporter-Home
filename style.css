@@ -1,18 +1,3 @@
-html {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-
-body{
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url('home page.png');
-  background-repeat: no-repeat;
-  background-size: auto;
-}
 .home-page {
   position: relative;
   width: 1278px;
@@ -60,7 +45,7 @@ body{
   position: absolute;
   width: 167px;
   height: 20px;
-  top: 35px;
+  top: 25px;
   left: 0;
   font-family: var(
     --stupendous-beginning-561514-framer-app-inter-medium-font-family
@@ -114,7 +99,7 @@ body{
   align-items: flex-start;
   padding: 0.5px 0px;
   position: absolute;
-  top: 33px;
+  top: 40px;
   left: 328px;
 }
 
@@ -150,7 +135,7 @@ body{
   align-items: flex-start;
   padding: 0.5px 0px;
   position: absolute;
-  top: 34px;
+  top: 40px;
   left: 466px;
 }
 
@@ -160,7 +145,7 @@ body{
   align-items: flex-start;
   padding: 0.5px 0px;
   position: absolute;
-  top: 33px;
+  top: 40px;
   left: 663px;
 }
 
