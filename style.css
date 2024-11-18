@@ -1,0 +1,199 @@
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('home page.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.home-page {
+  position: relative;
+  width: 1278px;
+  height: 732px;
+  background-image: url('home page.png');
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.home-page .logo-sporter {
+  position: absolute;
+  width: 174px;
+  height: 50px;
+  top: 25px;
+  left: 31px;
+  object-fit: cover;
+}
+
+.home-page .navigasi {
+  position: absolute;
+  width: 790px;
+  height: 99px;
+  top: 590px;
+  left: 247px;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0px -1px 29px -6px #2b2b2b6e;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(247, 220, 220, 0.59) 0%,
+    rgba(248, 219, 219, 0.64) 11.71%,
+    rgb(255, 207, 207) 100%
+  );
+}
+
+.home-page .overlap-group {
+  position: absolute;
+  width: 167px;
+  height: 55px;
+  top: 16px;
+  left: 42px;
+}
+
+.home-page .text-wrapper {
+  position: absolute;
+  width: 167px;
+  height: 20px;
+  top: 35px;
+  left: 0;
+  font-family: var(
+    --stupendous-beginning-561514-framer-app-inter-medium-font-family
+  );
+  font-weight: var(
+    --stupendous-beginning-561514-framer-app-inter-medium-font-weight
+  );
+  color: #595252;
+  font-size: var(
+    --stupendous-beginning-561514-framer-app-inter-medium-font-size
+  );
+  letter-spacing: var(
+    --stupendous-beginning-561514-framer-app-inter-medium-letter-spacing
+  );
+  line-height: var(
+    --stupendous-beginning-561514-framer-app-inter-medium-line-height
+  );
+  white-space: nowrap;
+  font-style: var(
+    --stupendous-beginning-561514-framer-app-inter-medium-font-style
+  );
+}
+
+.home-page .div {
+  position: absolute;
+  width: 65px;
+  height: 28px;
+  top: 8px;
+  left: 0;
+  font-family: "Marcellus-Regular", Helvetica;
+  font-weight: 400;
+  color: #110630;
+  font-size: 23px;
+  letter-spacing: 0;
+  line-height: 27.6px;
+  white-space: nowrap;
+}
+
+.home-page .search {
+  position: absolute;
+  width: 28px;
+  height: 45px;
+  top: 0;
+  left: 65px;
+  object-fit: cover;
+}
+
+.home-page .gym {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0.5px 0px;
+  position: absolute;
+  top: 33px;
+  left: 328px;
+}
+
+.home-page .text {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(
+    --stupendous-beginning-561514-framer-app-marcellus-regular-font-family
+  );
+  font-weight: var(
+    --stupendous-beginning-561514-framer-app-marcellus-regular-font-weight
+  );
+  color: #110630;
+  font-size: var(
+    --stupendous-beginning-561514-framer-app-marcellus-regular-font-size
+  );
+  letter-spacing: var(
+    --stupendous-beginning-561514-framer-app-marcellus-regular-letter-spacing
+  );
+  line-height: var(
+    --stupendous-beginning-561514-framer-app-marcellus-regular-line-height
+  );
+  white-space: nowrap;
+  font-style: var(
+    --stupendous-beginning-561514-framer-app-marcellus-regular-font-style
+  );
+}
+
+.home-page .basketball {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0.5px 0px;
+  position: absolute;
+  top: 34px;
+  left: 466px;
+}
+
+.home-page .soccer {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0.5px 0px;
+  position: absolute;
+  top: 33px;
+  left: 663px;
+}
+
+.home-page .spot-your-sport {
+  position: absolute;
+  width: 627px;
+  height: 207px;
+  top: 305px;
+  left: 321px;
+}
+
+.home-page .menu {
+  position: absolute;
+  width: 93px;
+  height: 42px;
+  top: 20px;
+  left: 1152px;
+  background-image: url(./img/menu.png);
+  background-size: 100% 100%;
+}
+
+.home-page .typography {
+  position: absolute;
+  width: 723px;
+  height: 71px;
+  top: 181px;
+  left: 280px;
+}
+
+.home-page .img {
+  position: absolute;
+  width: 725px;
+  height: 71px;
+  top: 0;
+  left: 0;
+}
